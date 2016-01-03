@@ -1,0 +1,143 @@
+{
+ "topics": {
+  "neural_networks": {
+   "year": 1996,
+   "to": [
+    "text_mining",
+    "support_vector_machines",
+    "feature_selection"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.12121212121212122,
+    0.12121212121212122,
+    0.15584415584415584
+   ],
+   "from": []
+  },
+  "data_mining": {
+   "year": 1992,
+   "to": [
+    "machine_learning",
+    "feature_selection",
+    "text_mining",
+    "social_network_analysis"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.09046153846153847,
+    0.046153846153846156,
+    0.10338461538461538,
+    0.01723076923076923
+   ],
+   "from": []
+  },
+  "information_retrieval": {
+   "year": 1996,
+   "to": [
+    "text_mining"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.5822784810126582
+   ],
+   "from": []
+  },
+  "text_mining": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.04281345565749235,
+    0.25688073394495414,
+    0.07033639143730887,
+    0.1162079510703364,
+    0.047400611620795105
+   ],
+   "to_num": [],
+   "from": [
+    "neural_networks",
+    "data_mining",
+    "information_retrieval",
+    "association_rules",
+    "machine_learning"
+   ]
+  },
+  "social_network_analysis": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    0.5254237288135594,
+    0.4745762711864407
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules",
+    "data_mining"
+   ]
+  },
+  "machine_learning": {
+   "year": 1996,
+   "to": [
+    "feature_selection",
+    "text_mining"
+   ],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [
+    0.40816326530612246,
+    0.3163265306122449
+   ],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "support_vector_machines": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.2159090909090909,
+    0.1590909090909091
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules",
+    "neural_networks"
+   ]
+  },
+  "feature_selection": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.20053475935828877,
+    0.10695187165775401,
+    0.0962566844919786,
+    0.09090909090909091
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining",
+    "machine_learning",
+    "neural_networks",
+    "association_rules"
+   ]
+  },
+  "association_rules": {
+   "year": 1996,
+   "to": [
+    "support_vector_machines",
+    "social_network_analysis",
+    "text_mining",
+    "feature_selection"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.057750759878419454,
+    0.04711246200607903,
+    0.11550151975683891,
+    0.05167173252279635
+   ],
+   "from": []
+  }
+ }
+}

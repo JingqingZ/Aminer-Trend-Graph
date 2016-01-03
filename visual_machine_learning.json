@@ -1,0 +1,746 @@
+{
+ "topics": {
+  "evolutionary_computation": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 2000,
+   "from": [
+    "genetic_algorithms"
+   ]
+  },
+  "data_analysis": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.4921875,
+    0.2265625,
+    0.28125
+   ],
+   "year": 2000,
+   "from": [
+    "machine_learning",
+    "pattern_classification",
+    "support_vector_machines"
+   ]
+  },
+  "sentiment_analysis": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.2543859649122807,
+    0.22807017543859648,
+    0.5175438596491229
+   ],
+   "year": 2008,
+   "from": [
+    "support_vector_machines",
+    "data_mining",
+    "machine_learning"
+   ]
+  },
+  "gaussian_process": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.3118279569892473,
+    0.3655913978494624,
+    0.3225806451612903
+   ],
+   "year": 2004,
+   "from": [
+    "machine_learning",
+    "support_vector_machines",
+    "data_mining"
+   ]
+  },
+  "kernel_methods": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 2000,
+   "from": [
+    "support_vector_machines"
+   ]
+  },
+  "information_retrieval": {
+   "to": [
+    "natural_language_processing"
+   ],
+   "to_num": [
+    1.0
+   ],
+   "from_num": [],
+   "year": 1996,
+   "from": []
+  },
+  "pattern_classification": {
+   "to": [
+    "extreme_learning_machine",
+    "image_classification",
+    "big_data",
+    "data_analysis"
+   ],
+   "to_num": [
+    0.3496932515337423,
+    0.27607361963190186,
+    0.19631901840490798,
+    0.17791411042944785
+   ],
+   "from_num": [
+    0.15789473684210525,
+    0.31100478468899523,
+    0.215311004784689,
+    0.16267942583732056,
+    0.15311004784688995
+   ],
+   "year": 1996,
+   "from": [
+    "artificial_intelligence",
+    "learning_algorithms",
+    "decision_tree",
+    "genetic_algorithms",
+    "pattern_recognition"
+   ]
+  },
+  "genetic_algorithms": {
+   "to": [
+    "evolutionary_computation",
+    "feature_selection",
+    "pattern_classification",
+    "extreme_learning_machine",
+    "support_vector_machines"
+   ],
+   "to_num": [
+    0.12626262626262627,
+    0.21717171717171718,
+    0.1717171717171717,
+    0.18181818181818182,
+    0.30303030303030304
+   ],
+   "from_num": [],
+   "year": 1992,
+   "from": []
+  },
+  "knowledge_acquisition": {
+   "to": [
+    "data_mining",
+    "support_vector_machines"
+   ],
+   "to_num": [
+    0.4935064935064935,
+    0.5064935064935064
+   ],
+   "from_num": [],
+   "year": 1988,
+   "from": []
+  },
+  "learning_to_rank": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 2008,
+   "from": [
+    "machine_learning"
+   ]
+  },
+  "learning_algorithms": {
+   "to": [
+    "data_mining",
+    "pattern_classification",
+    "supervised_learning",
+    "image_classification",
+    "support_vector_machines",
+    "classification_algorithms",
+    "extreme_learning_machine",
+    "feature_extraction"
+   ],
+   "to_num": [
+    0.06683804627249357,
+    0.16709511568123395,
+    0.08483290488431877,
+    0.15167095115681234,
+    0.20051413881748073,
+    0.11568123393316196,
+    0.07455012853470437,
+    0.13881748071979436
+   ],
+   "from_num": [],
+   "year": 1988,
+   "from": []
+  },
+  "artificial_intelligence": {
+   "to": [
+    "pattern_classification",
+    "feature_extraction"
+   ],
+   "to_num": [
+    0.4925373134328358,
+    0.5074626865671642
+   ],
+   "from_num": [],
+   "year": 1988,
+   "from": []
+  },
+  "decision_support_system": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 2000,
+   "from": [
+    "machine_learning"
+   ]
+  },
+  "data_mining": {
+   "to": [
+    "natural_language_processing",
+    "image_classification",
+    "extreme_learning_machine",
+    "sentiment_analysis",
+    "big_data",
+    "gaussian_process"
+   ],
+   "to_num": [
+    0.11255411255411256,
+    0.2683982683982684,
+    0.19480519480519481,
+    0.11255411255411256,
+    0.18181818181818182,
+    0.12987012987012986
+   ],
+   "from_num": [
+    0.16352201257861634,
+    0.2389937106918239,
+    0.3018867924528302,
+    0.29559748427672955
+   ],
+   "year": 1996,
+   "from": [
+    "learning_algorithms",
+    "knowledge_acquisition",
+    "neural_networks",
+    "decision_tree"
+   ]
+  },
+  "recommender_systems": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 2008,
+   "from": [
+    "machine_learning"
+   ]
+  },
+  "feature_selection": {
+   "to": [
+    "extreme_learning_machine"
+   ],
+   "to_num": [
+    1.0
+   ],
+   "from_num": [
+    0.08060453400503778,
+    0.10831234256926953,
+    0.14357682619647355,
+    0.1309823677581864,
+    0.327455919395466,
+    0.08312342569269521,
+    0.12594458438287154
+   ],
+   "year": 1996,
+   "from": [
+    "artificial_neural_networks",
+    "genetic_algorithms",
+    "decision_tree",
+    "neural_networks",
+    "machine_learning",
+    "pattern_recognition",
+    "classification_algorithms"
+   ]
+  },
+  "machine_learning": {
+   "to": [
+    "learning_to_rank",
+    "ensemble_learning",
+    "image_segmentation",
+    "data_analysis",
+    "computer_vision",
+    "gaussian_process",
+    "text_mining",
+    "natural_language_processing",
+    "image_classification",
+    "big_data",
+    "feature_selection",
+    "sentiment_analysis",
+    "decision_support_system",
+    "extreme_learning_machine",
+    "unsupervised_learning",
+    "recommender_systems",
+    "feature_extraction"
+   ],
+   "to_num": [
+    0.025328330206378986,
+    0.03564727954971857,
+    0.03283302063789869,
+    0.05909943714821764,
+    0.0300187617260788,
+    0.027204502814258912,
+    0.05065666041275797,
+    0.08818011257035648,
+    0.10318949343339587,
+    0.0947467166979362,
+    0.12195121951219512,
+    0.055347091932457786,
+    0.025328330206378986,
+    0.1022514071294559,
+    0.024390243902439025,
+    0.04690431519699812,
+    0.07692307692307693
+   ],
+   "from_num": [],
+   "year": 1984,
+   "from": []
+  },
+  "pattern_recognition": {
+   "to": [
+    "extreme_learning_machine",
+    "support_vector_machines",
+    "pattern_classification",
+    "image_classification",
+    "feature_selection"
+   ],
+   "to_num": [
+    0.1271186440677966,
+    0.3220338983050847,
+    0.13559322033898305,
+    0.2754237288135593,
+    0.13983050847457626
+   ],
+   "from_num": [],
+   "year": 1988,
+   "from": []
+  },
+  "rough_set": {
+   "to": [
+    "extreme_learning_machine"
+   ],
+   "to_num": [
+    1.0
+   ],
+   "from_num": [],
+   "year": 2000,
+   "from": []
+  },
+  "neural_networks": {
+   "to": [
+    "feature_extraction",
+    "ensemble_learning",
+    "support_vector_machines",
+    "feature_selection",
+    "natural_language_processing",
+    "image_classification",
+    "data_mining",
+    "classification_algorithms",
+    "extreme_learning_machine"
+   ],
+   "to_num": [
+    0.10565110565110565,
+    0.08108108108108109,
+    0.23587223587223588,
+    0.12776412776412777,
+    0.06633906633906633,
+    0.08108108108108109,
+    0.11793611793611794,
+    0.06142506142506143,
+    0.12285012285012285
+   ],
+   "from_num": [],
+   "year": 1988,
+   "from": []
+  },
+  "computer_vision": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 1992,
+   "from": [
+    "machine_learning"
+   ]
+  },
+  "big_data": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.2391304347826087,
+    0.4391304347826087,
+    0.1826086956521739,
+    0.1391304347826087
+   ],
+   "year": 2012,
+   "from": [
+    "support_vector_machines",
+    "machine_learning",
+    "data_mining",
+    "pattern_classification"
+   ]
+  },
+  "decision_tree": {
+   "to": [
+    "support_vector_machines",
+    "pattern_classification",
+    "feature_selection",
+    "extreme_learning_machine",
+    "data_mining",
+    "unsupervised_learning",
+    "supervised_learning",
+    "feature_extraction"
+   ],
+   "to_num": [
+    0.2132132132132132,
+    0.13513513513513514,
+    0.17117117117117117,
+    0.1021021021021021,
+    0.14114114114114115,
+    0.07807807807807808,
+    0.08408408408408409,
+    0.07507507507507508
+   ],
+   "from_num": [],
+   "year": 1992,
+   "from": []
+  },
+  "classification_algorithms": {
+   "to": [
+    "extreme_learning_machine",
+    "image_classification",
+    "feature_selection"
+   ],
+   "to_num": [
+    0.30434782608695654,
+    0.2608695652173913,
+    0.43478260869565216
+   ],
+   "from_num": [
+    0.35714285714285715,
+    0.6428571428571429
+   ],
+   "year": 1992,
+   "from": [
+    "neural_networks",
+    "learning_algorithms"
+   ]
+  },
+  "text_mining": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.5,
+    0.5
+   ],
+   "year": 2004,
+   "from": [
+    "machine_learning",
+    "support_vector_machines"
+   ]
+  },
+  "extreme_learning_machine": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.045454545454545456,
+    0.05303030303030303,
+    0.04696969696969697,
+    0.06818181818181818,
+    0.05606060606060606,
+    0.051515151515151514,
+    0.08636363636363636,
+    0.05454545454545454,
+    0.16515151515151516,
+    0.07575757575757576,
+    0.04393939393939394,
+    0.25303030303030305
+   ],
+   "year": 2004,
+   "from": [
+    "pattern_recognition",
+    "classification_algorithms",
+    "rough_set",
+    "data_mining",
+    "feature_selection",
+    "decision_tree",
+    "pattern_classification",
+    "genetic_algorithms",
+    "machine_learning",
+    "neural_networks",
+    "learning_algorithms",
+    "support_vector_machines"
+   ]
+  },
+  "artificial_neural_networks": {
+   "to": [
+    "feature_selection"
+   ],
+   "to_num": [
+    1.0
+   ],
+   "from_num": [],
+   "year": 1992,
+   "from": []
+  },
+  "natural_language_processing": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.12264150943396226,
+    0.13679245283018868,
+    0.44339622641509435,
+    0.12735849056603774,
+    0.16981132075471697
+   ],
+   "year": 2000,
+   "from": [
+    "data_mining",
+    "information_retrieval",
+    "machine_learning",
+    "neural_networks",
+    "support_vector_machines"
+   ]
+  },
+  "support_vector_machines": {
+   "to": [
+    "kernel_methods",
+    "ensemble_learning",
+    "big_data",
+    "sentiment_analysis",
+    "gaussian_process",
+    "text_mining",
+    "natural_language_processing",
+    "data_analysis",
+    "extreme_learning_machine",
+    "image_classification"
+   ],
+   "to_num": [
+    0.07204116638078903,
+    0.07375643224699828,
+    0.09433962264150944,
+    0.04974271012006861,
+    0.058319039451114926,
+    0.09262435677530018,
+    0.06174957118353345,
+    0.06174957118353345,
+    0.2864493996569468,
+    0.14922813036020582
+   ],
+   "from_num": [
+    0.18095238095238095,
+    0.16904761904761906,
+    0.22857142857142856,
+    0.18571428571428572,
+    0.09285714285714286,
+    0.14285714285714285
+   ],
+   "year": 1996,
+   "from": [
+    "pattern_recognition",
+    "decision_tree",
+    "neural_networks",
+    "learning_algorithms",
+    "knowledge_acquisition",
+    "genetic_algorithms"
+   ]
+  },
+  "unsupervised_learning": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.5,
+    0.5
+   ],
+   "year": 1996,
+   "from": [
+    "decision_tree",
+    "machine_learning"
+   ]
+  },
+  "image_segmentation": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    1.0
+   ],
+   "year": 2004,
+   "from": [
+    "machine_learning"
+   ]
+  },
+  "ensemble_learning": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.3333333333333333,
+    0.37719298245614036,
+    0.2894736842105263
+   ],
+   "year": 2004,
+   "from": [
+    "machine_learning",
+    "support_vector_machines",
+    "neural_networks"
+   ]
+  },
+  "image_classification": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.12627291242362526,
+    0.06109979633401222,
+    0.12016293279022404,
+    0.06720977596741344,
+    0.2240325865580448,
+    0.09164969450101833,
+    0.13238289205702647,
+    0.17718940936863545
+   ],
+   "year": 2000,
+   "from": [
+    "data_mining",
+    "classification_algorithms",
+    "learning_algorithms",
+    "neural_networks",
+    "machine_learning",
+    "pattern_classification",
+    "pattern_recognition",
+    "support_vector_machines"
+   ]
+  },
+  "supervised_learning": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.5409836065573771,
+    0.45901639344262296
+   ],
+   "year": 2000,
+   "from": [
+    "learning_algorithms",
+    "decision_tree"
+   ]
+  },
+  "feature_extraction": {
+   "to": [],
+   "to_num": [],
+   "from_num": [
+    0.18067226890756302,
+    0.14285714285714285,
+    0.10504201680672269,
+    0.226890756302521,
+    0.3445378151260504
+   ],
+   "year": 1996,
+   "from": [
+    "neural_networks",
+    "artificial_intelligence",
+    "decision_tree",
+    "learning_algorithms",
+    "machine_learning"
+   ]
+  }
+ },
+ "links": {
+  "pattern_recognition!image_classification": 65,
+  "learning_algorithms!image_classification": 59,
+  "pattern_classification!data_analysis": 29,
+  "machine_learning!ensemble_learning": 38,
+  "support_vector_machines!extreme_learning_machine": 167,
+  "machine_learning!decision_support_system": 27,
+  "decision_tree!unsupervised_learning": 26,
+  "machine_learning!unsupervised_learning": 26,
+  "pattern_recognition!extreme_learning_machine": 30,
+  "data_mining!big_data": 42,
+  "machine_learning!learning_to_rank": 27,
+  "data_mining!image_classification": 62,
+  "genetic_algorithms!extreme_learning_machine": 36,
+  "data_mining!extreme_learning_machine": 45,
+  "data_mining!natural_language_processing": 26,
+  "machine_learning!image_classification": 110,
+  "machine_learning!feature_selection": 130,
+  "classification_algorithms!extreme_learning_machine": 35,
+  "decision_tree!support_vector_machines": 71,
+  "artificial_neural_networks!feature_selection": 32,
+  "genetic_algorithms!support_vector_machines": 60,
+  "data_mining!gaussian_process": 30,
+  "artificial_intelligence!feature_extraction": 34,
+  "support_vector_machines!sentiment_analysis": 29,
+  "decision_tree!extreme_learning_machine": 34,
+  "learning_algorithms!classification_algorithms": 45,
+  "neural_networks!support_vector_machines": 96,
+  "machine_learning!gaussian_process": 29,
+  "learning_algorithms!support_vector_machines": 78,
+  "machine_learning!data_analysis": 63,
+  "support_vector_machines!text_mining": 54,
+  "neural_networks!ensemble_learning": 33,
+  "genetic_algorithms!feature_selection": 43,
+  "neural_networks!feature_extraction": 43,
+  "support_vector_machines!data_analysis": 36,
+  "decision_tree!data_mining": 47,
+  "machine_learning!big_data": 101,
+  "neural_networks!natural_language_processing": 27,
+  "pattern_classification!big_data": 32,
+  "decision_tree!feature_extraction": 25,
+  "feature_selection!extreme_learning_machine": 37,
+  "classification_algorithms!feature_selection": 50,
+  "machine_learning!recommender_systems": 50,
+  "pattern_recognition!pattern_classification": 32,
+  "machine_learning!text_mining": 54,
+  "information_retrieval!natural_language_processing": 29,
+  "support_vector_machines!kernel_methods": 42,
+  "learning_algorithms!supervised_learning": 33,
+  "pattern_classification!extreme_learning_machine": 57,
+  "support_vector_machines!natural_language_processing": 36,
+  "learning_algorithms!feature_extraction": 54,
+  "neural_networks!extreme_learning_machine": 50,
+  "decision_tree!supervised_learning": 28,
+  "learning_algorithms!pattern_classification": 65,
+  "artificial_intelligence!pattern_classification": 33,
+  "support_vector_machines!ensemble_learning": 43,
+  "neural_networks!feature_selection": 52,
+  "knowledge_acquisition!support_vector_machines": 39,
+  "learning_algorithms!data_mining": 26,
+  "decision_tree!pattern_classification": 45,
+  "learning_algorithms!extreme_learning_machine": 29,
+  "support_vector_machines!image_classification": 87,
+  "decision_tree!feature_selection": 57,
+  "classification_algorithms!image_classification": 30,
+  "machine_learning!image_segmentation": 35,
+  "support_vector_machines!gaussian_process": 34,
+  "machine_learning!feature_extraction": 82,
+  "machine_learning!extreme_learning_machine": 109,
+  "machine_learning!sentiment_analysis": 59,
+  "neural_networks!classification_algorithms": 25,
+  "pattern_classification!image_classification": 45,
+  "data_mining!sentiment_analysis": 26,
+  "neural_networks!image_classification": 33,
+  "rough_set!extreme_learning_machine": 31,
+  "genetic_algorithms!evolutionary_computation": 25,
+  "support_vector_machines!big_data": 55,
+  "genetic_algorithms!pattern_classification": 34,
+  "pattern_recognition!feature_selection": 33,
+  "machine_learning!natural_language_processing": 94,
+  "knowledge_acquisition!data_mining": 38,
+  "pattern_recognition!support_vector_machines": 76,
+  "neural_networks!data_mining": 48,
+  "machine_learning!computer_vision": 32
+ }
+}

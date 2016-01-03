@@ -1,0 +1,835 @@
+{
+ "links": {
+  "knowledge_discovery!support_vector_machines": 36,
+  "machine_learning!text_mining": 31,
+  "association_rules!bayesian_networks": 28,
+  "data_mining!machine_learning": 147,
+  "genetic_algorithm!evolutionary_computation": 28,
+  "database_systems!recommender_system": 41,
+  "knowledge_discovery!time_series": 37,
+  "knowledge_discovery!data_integration": 28,
+  "decision_tree!text_mining": 40,
+  "knowledge_discovery!text_mining": 84,
+  "knowledge_discovery!evolutionary_computation": 27,
+  "data_mining!time_series": 66,
+  "association_rules!feature_extraction": 37,
+  "association_rules!social_network_analysis": 31,
+  "neural_networks!support_vector_machines": 28,
+  "intrusion_detection!anomaly_detection": 25,
+  "association_rules!text_mining": 76,
+  "data_warehouses!support_vector_machines": 30,
+  "data_mining!visual_analytics": 29,
+  "association_rules!data_integration": 38,
+  "data_mining!text_mining": 168,
+  "data_mining!decision_support_systems": 48,
+  "information_retrieval!recommender_system": 33,
+  "data_mining!graph_database": 25,
+  "knowledge_discovery!pattern_matching": 25,
+  "knowledge_discovery!feature_selection": 41,
+  "data_warehouses!text_mining": 44,
+  "database_systems!feature_extraction": 29,
+  "data_mining!collaborative_filtering": 62,
+  "genetic_algorithm!feature_selection": 45,
+  "clustering!time_series": 60,
+  "association_rules!outlier_detection": 41,
+  "association_rules!support_vector_machines": 38,
+  "data_mining!clustering": 57,
+  "clustering!feature_selection": 26,
+  "decision_tree!recommender_system": 29,
+  "neural_networks!data_integration": 30,
+  "association_rules!time_series": 57,
+  "decision_tree!data_stream": 37,
+  "relational_databases!text_mining": 27,
+  "decision_tree!support_vector_machines": 44,
+  "neural_networks!recommender_system": 27,
+  "knowledge_discovery!data_stream": 63,
+  "data_mining!social_network_analysis": 28,
+  "machine_learning!unsupervised_learning": 27,
+  "association_rules!recommender_system": 47,
+  "classification_algorithms!text_mining": 46,
+  "neural_networks!text_mining": 28,
+  "support_vector_machines!dimensionality_reduction": 26,
+  "data_warehouses!time_series": 38,
+  "data_mining!data_management": 32,
+  "database_systems!text_mining": 34,
+  "clustering!data_stream": 36,
+  "association_rules!sensor_networks": 25,
+  "classification_algorithms!feature_selection": 36,
+  "information_retrieval!text_mining": 46,
+  "neural_networks!time_series": 30,
+  "data_mining!feature_extraction": 67,
+  "association_rules!anomaly_detection": 27,
+  "clustering!recommender_system": 42,
+  "knowledge_discovery!feature_extraction": 29,
+  "data_mining!classification_algorithms": 80,
+  "data_mining!feature_selection": 75,
+  "data_mining!data_stream": 63,
+  "association_rules!uncertain_data": 28,
+  "association_rules!data_stream": 122,
+  "data_mining!unsupervised_learning": 50,
+  "data_mining!data_analysis": 233,
+  "data_mining!outlier_detection": 54,
+  "clustering!text_mining": 30,
+  "neural_networks!rough_set": 27,
+  "neural_networks!feature_selection": 36,
+  "web_mining!recommender_system": 38,
+  "machine_learning!feature_selection": 40,
+  "data_mining!similarity_measure": 42,
+  "data_mining!pattern_matching": 31,
+  "neural_networks!predictive_modeling": 25,
+  "data_mining!wireless_sensor_networks": 43,
+  "association_rules!wireless_sensor_networks": 29,
+  "data_mining!data_structures": 36,
+  "genetic_algorithm!recommender_system": 25,
+  "association_rules!feature_selection": 34,
+  "decision_tree!feature_selection": 41,
+  "data_mining!recommender_system": 143,
+  "data_mining!uncertain_data": 46
+ },
+ "topics": {
+  "data_warehouses": {
+   "year": 1996,
+   "to": [
+    "text_mining",
+    "support_vector_machines",
+    "time_series"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.39285714285714285,
+    0.26785714285714285,
+    0.3392857142857143
+   ],
+   "from": []
+  },
+  "dimensionality_reduction": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "support_vector_machines"
+   ]
+  },
+  "neural_networks": {
+   "year": 1996,
+   "to": [
+    "text_mining",
+    "recommender_system",
+    "data_integration",
+    "rough_set",
+    "predictive_modeling",
+    "support_vector_machines",
+    "feature_selection",
+    "time_series"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.12121212121212122,
+    0.11688311688311688,
+    0.12987012987012986,
+    0.11688311688311688,
+    0.10822510822510822,
+    0.12121212121212122,
+    0.15584415584415584,
+    0.12987012987012986
+   ],
+   "from": []
+  },
+  "data_structures": {
+   "year": 1996,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "data_mining": {
+   "year": 1992,
+   "to": [
+    "data_management",
+    "visual_analytics",
+    "recommender_system",
+    "uncertain_data",
+    "decision_support_systems",
+    "machine_learning",
+    "classification_algorithms",
+    "pattern_matching",
+    "feature_extraction",
+    "outlier_detection",
+    "data_analysis",
+    "feature_selection",
+    "similarity_measure",
+    "wireless_sensor_networks",
+    "unsupervised_learning",
+    "text_mining",
+    "time_series",
+    "clustering",
+    "data_stream",
+    "data_structures",
+    "collaborative_filtering",
+    "graph_database",
+    "social_network_analysis"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.019692307692307693,
+    0.017846153846153845,
+    0.088,
+    0.028307692307692308,
+    0.029538461538461538,
+    0.09046153846153847,
+    0.04923076923076923,
+    0.019076923076923078,
+    0.04123076923076923,
+    0.03323076923076923,
+    0.1433846153846154,
+    0.046153846153846156,
+    0.025846153846153845,
+    0.02646153846153846,
+    0.03076923076923077,
+    0.10338461538461538,
+    0.040615384615384616,
+    0.035076923076923075,
+    0.03876923076923077,
+    0.022153846153846152,
+    0.038153846153846156,
+    0.015384615384615385,
+    0.01723076923076923
+   ],
+   "from": []
+  },
+  "information_retrieval": {
+   "year": 1996,
+   "to": [
+    "recommender_system",
+    "text_mining"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.4177215189873418,
+    0.5822784810126582
+   ],
+   "from": []
+  },
+  "wireless_sensor_networks": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    0.4027777777777778,
+    0.5972222222222222
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules",
+    "data_mining"
+   ]
+  },
+  "genetic_algorithm": {
+   "year": 1996,
+   "to": [
+    "recommender_system",
+    "evolutionary_computation",
+    "feature_selection"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.25510204081632654,
+    0.2857142857142857,
+    0.45918367346938777
+   ],
+   "from": []
+  },
+  "text_mining": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.0672782874617737,
+    0.04281345565749235,
+    0.045871559633027525,
+    0.05198776758409786,
+    0.06116207951070336,
+    0.04128440366972477,
+    0.25688073394495414,
+    0.07033639143730887,
+    0.12844036697247707,
+    0.1162079510703364,
+    0.07033639143730887,
+    0.047400611620795105
+   ],
+   "to_num": [],
+   "from": [
+    "data_warehouses",
+    "neural_networks",
+    "clustering",
+    "database_systems",
+    "decision_tree",
+    "relational_databases",
+    "data_mining",
+    "information_retrieval",
+    "knowledge_discovery",
+    "association_rules",
+    "classification_algorithms",
+    "machine_learning"
+   ]
+  },
+  "anomaly_detection": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    0.4807692307692308,
+    0.5192307692307693
+   ],
+   "to_num": [],
+   "from": [
+    "intrusion_detection",
+    "association_rules"
+   ]
+  },
+  "social_network_analysis": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    0.5254237288135594,
+    0.4745762711864407
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules",
+    "data_mining"
+   ]
+  },
+  "rough_set": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "neural_networks"
+   ]
+  },
+  "machine_learning": {
+   "year": 1996,
+   "to": [
+    "unsupervised_learning",
+    "feature_selection",
+    "text_mining"
+   ],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [
+    0.2755102040816326,
+    0.40816326530612246,
+    0.3163265306122449
+   ],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "uncertain_data": {
+   "year": 2008,
+   "to": [],
+   "from_num": [
+    0.6216216216216216,
+    0.3783783783783784
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining",
+    "association_rules"
+   ]
+  },
+  "web_mining": {
+   "year": 2000,
+   "to": [
+    "recommender_system"
+   ],
+   "from_num": [],
+   "to_num": [
+    1.0
+   ],
+   "from": []
+  },
+  "intrusion_detection": {
+   "year": 2000,
+   "to": [
+    "anomaly_detection"
+   ],
+   "from_num": [],
+   "to_num": [
+    1.0
+   ],
+   "from": []
+  },
+  "collaborative_filtering": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "data_management": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "support_vector_machines": {
+   "year": 2000,
+   "to": [
+    "dimensionality_reduction"
+   ],
+   "from_num": [
+    0.2159090909090909,
+    0.20454545454545456,
+    0.1590909090909091,
+    0.17045454545454544,
+    0.25
+   ],
+   "to_num": [
+    1.0
+   ],
+   "from": [
+    "association_rules",
+    "knowledge_discovery",
+    "neural_networks",
+    "data_warehouses",
+    "decision_tree"
+   ]
+  },
+  "bayesian_networks": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules"
+   ]
+  },
+  "relational_databases": {
+   "year": 1996,
+   "to": [
+    "text_mining"
+   ],
+   "from_num": [],
+   "to_num": [
+    1.0
+   ],
+   "from": []
+  },
+  "recommender_system": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    0.058823529411764705,
+    0.06823529411764706,
+    0.33647058823529413,
+    0.06352941176470588,
+    0.08941176470588236,
+    0.09647058823529411,
+    0.07764705882352942,
+    0.11058823529411765,
+    0.0988235294117647
+   ],
+   "to_num": [],
+   "from": [
+    "genetic_algorithm",
+    "decision_tree",
+    "data_mining",
+    "neural_networks",
+    "web_mining",
+    "database_systems",
+    "information_retrieval",
+    "association_rules",
+    "clustering"
+   ]
+  },
+  "evolutionary_computation": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.509090909090909,
+    0.4909090909090909
+   ],
+   "to_num": [],
+   "from": [
+    "genetic_algorithm",
+    "knowledge_discovery"
+   ]
+  },
+  "knowledge_discovery": {
+   "year": 1996,
+   "to": [
+    "feature_extraction",
+    "time_series",
+    "support_vector_machines",
+    "pattern_matching",
+    "feature_selection",
+    "data_stream",
+    "text_mining",
+    "data_integration",
+    "evolutionary_computation"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.07837837837837838,
+    0.1,
+    0.0972972972972973,
+    0.06756756756756757,
+    0.11081081081081082,
+    0.17027027027027028,
+    0.22702702702702704,
+    0.07567567567567568,
+    0.07297297297297298
+   ],
+   "from": []
+  },
+  "time_series": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.1284722222222222,
+    0.13194444444444445,
+    0.20833333333333334,
+    0.22916666666666666,
+    0.19791666666666666,
+    0.10416666666666667
+   ],
+   "to_num": [],
+   "from": [
+    "knowledge_discovery",
+    "data_warehouses",
+    "clustering",
+    "data_mining",
+    "association_rules",
+    "neural_networks"
+   ]
+  },
+  "outlier_detection": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.43157894736842106,
+    0.5684210526315789
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules",
+    "data_mining"
+   ]
+  },
+  "feature_extraction": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.17901234567901234,
+    0.41358024691358025,
+    0.17901234567901234,
+    0.22839506172839505
+   ],
+   "to_num": [],
+   "from": [
+    "knowledge_discovery",
+    "data_mining",
+    "database_systems",
+    "association_rules"
+   ]
+  },
+  "decision_tree": {
+   "year": 1996,
+   "to": [
+    "recommender_system",
+    "feature_selection",
+    "text_mining",
+    "support_vector_machines",
+    "data_stream"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.1518324607329843,
+    0.21465968586387435,
+    0.2094240837696335,
+    0.23036649214659685,
+    0.193717277486911
+   ],
+   "from": []
+  },
+  "clustering": {
+   "year": 1996,
+   "to": [
+    "feature_selection",
+    "text_mining",
+    "data_stream",
+    "time_series",
+    "recommender_system"
+   ],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [
+    0.13402061855670103,
+    0.15463917525773196,
+    0.18556701030927836,
+    0.30927835051546393,
+    0.21649484536082475
+   ],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "unsupervised_learning": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.35064935064935066,
+    0.6493506493506493
+   ],
+   "to_num": [],
+   "from": [
+    "machine_learning",
+    "data_mining"
+   ]
+  },
+  "visual_analytics": {
+   "year": 2008,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "predictive_modeling": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "neural_networks"
+   ]
+  },
+  "feature_selection": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.06951871657754011,
+    0.0962566844919786,
+    0.10962566844919786,
+    0.20053475935828877,
+    0.10695187165775401,
+    0.0962566844919786,
+    0.10962566844919786,
+    0.12032085561497326,
+    0.09090909090909091
+   ],
+   "to_num": [],
+   "from": [
+    "clustering",
+    "classification_algorithms",
+    "decision_tree",
+    "data_mining",
+    "machine_learning",
+    "neural_networks",
+    "knowledge_discovery",
+    "genetic_algorithm",
+    "association_rules"
+   ]
+  },
+  "data_stream": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.38006230529595014,
+    0.11214953271028037,
+    0.19626168224299065,
+    0.19626168224299065,
+    0.11526479750778816
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules",
+    "clustering",
+    "knowledge_discovery",
+    "data_mining",
+    "decision_tree"
+   ]
+  },
+  "sensor_networks": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "association_rules"
+   ]
+  },
+  "decision_support_systems": {
+   "year": 1996,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "graph_database": {
+   "year": 2008,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "database_systems": {
+   "year": 1996,
+   "to": [
+    "text_mining",
+    "recommender_system",
+    "feature_extraction"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.3269230769230769,
+    0.3942307692307692,
+    0.27884615384615385
+   ],
+   "from": []
+  },
+  "data_integration": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.3125,
+    0.3958333333333333,
+    0.2916666666666667
+   ],
+   "to_num": [],
+   "from": [
+    "neural_networks",
+    "association_rules",
+    "knowledge_discovery"
+   ]
+  },
+  "data_analysis": {
+   "year": 1996,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "classification_algorithms": {
+   "year": 1996,
+   "to": [
+    "feature_selection",
+    "text_mining"
+   ],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [
+    0.43902439024390244,
+    0.5609756097560976
+   ],
+   "from": [
+    "data_mining"
+   ]
+  },
+  "pattern_matching": {
+   "year": 2000,
+   "to": [],
+   "from_num": [
+    0.5535714285714286,
+    0.44642857142857145
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining",
+    "knowledge_discovery"
+   ]
+  },
+  "association_rules": {
+   "year": 1996,
+   "to": [
+    "wireless_sensor_networks",
+    "support_vector_machines",
+    "data_stream",
+    "bayesian_networks",
+    "outlier_detection",
+    "social_network_analysis",
+    "uncertain_data",
+    "data_integration",
+    "sensor_networks",
+    "feature_extraction",
+    "anomaly_detection",
+    "text_mining",
+    "recommender_system",
+    "time_series",
+    "feature_selection"
+   ],
+   "from_num": [],
+   "to_num": [
+    0.044072948328267476,
+    0.057750759878419454,
+    0.18541033434650456,
+    0.0425531914893617,
+    0.06231003039513678,
+    0.04711246200607903,
+    0.0425531914893617,
+    0.057750759878419454,
+    0.037993920972644375,
+    0.05623100303951368,
+    0.041033434650455926,
+    0.11550151975683891,
+    0.07142857142857142,
+    0.08662613981762918,
+    0.05167173252279635
+   ],
+   "from": []
+  },
+  "similarity_measure": {
+   "year": 2004,
+   "to": [],
+   "from_num": [
+    1.0
+   ],
+   "to_num": [],
+   "from": [
+    "data_mining"
+   ]
+  }
+ }
+}
