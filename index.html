@@ -2,10 +2,10 @@
 <meta charset="utf-8">
 
 <!-- load D3js -->
-<script src="d3.js"></script>
+<script src="js/d3.js"></script>
 
 <!-- load D3plus after D3js -->
-<script src="d3plus.js"></script>
+<script src="js/d3plus.js"></script>
 
 <!-- create container element for visualization -->
 <div id="viz"></div>
@@ -17,18 +17,18 @@
   var url = "data.txt"
   xmlhttp.onreadystatechange = function() {
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-        var sample_data = JSON.parse(xmlhttp.responseText);
-        DrawGraph(sample_data);
+        var display_data = JSON.parse(xmlhttp.responseText);
+        DrawGraph(display_data);
     }
   };
   xmlhttp.open("GET", url, true);
   xmlhttp.send();
 
-  function DrawGraph(sample_data) {
+  function DrawGraph(display_data) {
     // instantiate d3plus
     var visualization = d3plus.viz()
         .container("#viz")  // container DIV to hold the visualization
-        .data(sample_data)  // data to use with the visualization
+        .data(display_data)  // data to use with the visualization
         .data({"stroke": {"width": 0}})
         .type("stacked")    // visualization type
         .color("color")
@@ -42,7 +42,7 @@
           "value": "value"
         })*/
         .order("order")
-        .shape({"interpolate": "linear"})
+        .shape({"interpolate": "monotone"})
         .id("name")         // key for which our data is unique on
         .text("display_name")       // key to use for display text
         .y("value")         // key to use for y-axis

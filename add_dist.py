@@ -48,20 +48,29 @@ class AddDist(object):
                     self.datadist["topics"][key]["dist"] = []
                     self.datadist["topics"][key]["start_year"] = 0
                     self.datadist["topics"][key]["end_year"] = 0
+                    self.datadist["topics"][key]["peak_year"] = 0
                 else:
                     self.datadist["topics"][key]["dist"] = self.topicdist[key]["dist"]
                     self.datadist["topics"][key]["start_year"] = self.topicdist[key]["start_year"]
                     self.datadist["topics"][key]["end_year"] = self.topicdist[key]["end_year"]
-            
+                    maxnum = -1
+                    maxoff = -1
+                    for i in range(0, len(self.datadist["topics"][key]["dist"])):
+                        if self.datadist["topics"][key]["dist"][i] > maxnum:
+                            maxnum = self.datadist["topics"][key]["dist"][i]
+                            maxoff = i
+                    self.datadist["topics"][key]["peak_year"] = maxoff + self.topicdist[key]["start_year"]
+
+
     def outputData(self, outfilename):
         with open(outfilename, 'w') as outfile:
             json.dump(self.datadist, outfile, indent=1, separators=(',', ': '))
 
 def main():
     ad = AddDist()
-    ad.loadDist("./pub_artificial_intelligence.dist", 1975, 2014)
-    ad.loadData("./visual_artificial_intelligence.json")
-    ad.outputData("./visual_artificial_intelligence_complete.json")
+    ad.loadDist("./data/pub_artificial_intelligence.dist", 1975, 2014)
+    ad.loadData("./data/visual_artificial_intelligence.json")
+    ad.outputData("./data/visual_artificial_intelligence_complete.json")
 
 if __name__ == '__main__':
     main()
